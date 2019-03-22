@@ -10,22 +10,25 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <groupId>za.co.fenya.tlala</groupId>
     <artifactId>services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
             <groupId>za.co.fenya.tlala</groupId>
-            <artifactId>persistence</artifactId>
+            <artifactId>commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>za.co.fenya.tlala</groupId>
-            <artifactId>commons</artifactId>
+            <artifactId>domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>za.co.fenya.tlala</groupId>
+            <artifactId>persistence</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
