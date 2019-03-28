@@ -9,7 +9,7 @@ import za.co.fenya.tlala.fenyatlala.service.EmployeeService;
 import java.util.Collections;
 import java.util.List;
 
-@RestController(value = "/api/employee")
+@RestController
 public class HumanResourceController {
 
     @Autowired
